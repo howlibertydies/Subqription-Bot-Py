@@ -2,11 +2,11 @@ import discord
 import requests
 from discord.ext import tasks
 
-TOKEN = "as if"
+TOKEN = "replace with your own token"
 CHANNEL_ID = int("1255263173968265237")
 MESSAGE_ID = int("1277530682897334364")
-YOUTUBE_CHANNEL_ID = "replace with ur own"
-YOUTUBE_API_KEY = "nuh uh"
+YOUTUBE_CHANNEL_ID = "replace with your own youtube channel id"
+YOUTUBE_API_KEY = "replace with your own api key"
 
 intents = discord.Intents.default()
 intents.messages = True
